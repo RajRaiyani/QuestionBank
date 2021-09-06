@@ -1,1 +1,95 @@
+body{
+	background-color: #cee2f9;
+}
+header{
+	background-color: #8995dc; 
+	border-radius: 30px;
+}
+.side-section-header{
+	background-color: #8995dc;
+}
+.side-section{
+	background-color: #cee2f9;
+}
+.right-btn{
+	background-color: #8995dc;
+	font-size: 4.3em; 
+	color: white;
+}
+.sidebar-btn{
+	width: 100%;
+	background-color: #8995dc;
+	border-radius: 15px;
+	font-weight: 600;
+}
+.sidebar-btn:hover{
+	background-color: #0e2cd8;
+	color: white;
+}
+.developer{
+	color: #660000;
+	margin-top: 10px;
+	font-family: Arial;
+}
+.card-h:hover{
+	width: 42vh !important;
+	margin-top: 6px !important;
+	margin-bottom: 10px !important; 
+}
+.header-text{
+	font-weight: 700;
+	color: #0bf48f;
+}
+.rotate,.rotate4{
+	transform: rotate(-7deg) !important;
+}
+.rotate2{ transform: rotate(7deg); }
+.rotate3{ transform: rotate(15deg); }
 
+.std-btn{
+	background-color: #8995dc;
+	width: 25vw;
+	height: 30vh;
+	font-size: 40px;
+	font-weight: 600;
+	font-family: sans-serif;
+	color:  #ff471a;
+	border-radius: 20px;
+}
+.std-btn:hover{
+	box-shadow: 4px 5px gray;
+	width: 27vw;
+	background-color: #3547b1;
+	color: white;
+	font-size: 45px;
+}
+.btn-font{
+	font-size: 60px;
+	color: #0bf48f;
+}
+.std-btn:hover .btn-font{
+	font-size: 70px;
+}
+.titlebar{
+	font-weight: 700;
+	color:   #ffcc00;
+
+}
+.footer-text{
+	font-size: 15px;
+}
+.titlebox{
+	float: left;
+	border-radius: 10px;
+	animation-name: blink;
+	animation-duration: 1.2s;
+	animation-iteration-count: infinite;
+}
+@keyframes blink {
+	from{background-color: #8995dc;}
+	to{ background-color: #3547b1; }
+}
+.back-btn:hover{
+	border: 3px solid red;
+	box-shadow: 4px 5px gray;
+}
