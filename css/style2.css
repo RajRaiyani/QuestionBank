@@ -1,0 +1,41 @@
+.sub-btn{
+	background-color: #8995dc;
+	width: 35vw;
+	height: 30vh;
+	font-size: 50px;
+	font-weight: 600;
+	font-family: sans-serif;
+	color:  #ff471a;
+	border-radius: 20px;
+}
+.sub-btn:hover{
+	box-shadow: 4px 5px gray;
+	width: 37vw;
+	background-color: #3547b1;
+	color: white;
+	font-size: 55px;
+}
+.ch-btn{
+	background-color: #8995dc;
+	width: 65vw;
+	height: 25vh;
+	font-size: 70px;
+	font-weight: 600;
+	font-family: sans-serif;
+	color:  #ff471a;
+	border-radius: 20px;
+}
+.ch-btn:hover{
+	box-shadow: 4px 5px gray;
+	width: 67vw;
+	background-color: #3547b1;
+	color: white;
+	font-size: 75px;
+}
+.ch-text{
+	color: #0bf48f;
+	font-size: 80px;
+}
+.ch-btn:hover .ch-text{
+	font-size: 85px;
+}

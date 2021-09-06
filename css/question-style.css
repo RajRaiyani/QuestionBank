@@ -1,0 +1,21 @@
+.questionbox{
+    width: 98vw;
+    background-color: #8995dc;
+    border: 2px solid rgb(59, 38, 248);
+    border-radius: 10px;
+    font-size: 25px;
+}
+.answer-btn{
+    background-color: #ffad33;
+    font-size: 20px;
+    font-weight: 700;
+}
+.text-number{
+    font-size: 40px;
+    color: #0bf48f;
+    font-weight: 700;
+    margin-left: 10px;
+}
+hr{
+    border: 1px dashed black;
+}
